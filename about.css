@@ -1,0 +1,108 @@
+* {
+    font-family: Arial;
+    border: border-box;
+    background: #000;
+    color: white;
+}
+
+.nav-intro-img {
+    margin: 15px 15px 0px 15px;
+  }
+
+  .nav-bar {
+    margin-top: 17px;
+    padding: 15px;
+    width: 80%;
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    margin-left: 50px;
+  }
+
+  .nav-bar a:hover {
+    border-radius: 4px;
+    background-color: rgb(36, 31, 31);
+  }
+
+.intro-text {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 70px;
+   font-size: 1.2em;
+}
+
+.intro-text h1 {
+    background: linear-gradient(to left,
+            rgb(150, 33, 150),
+            indigo,
+            rgb(159, 225, 104),
+            rgb(178, 75, 192),
+            rgb(128, 140, 195),
+            orange,
+            rgb(209, 112, 112));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 50px;
+}
+
+.profile-photo {
+    background-image: url(profilephoto.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    height: 390px;
+    width: 1625px;
+    /* float: right; */
+    margin-top: 120px;
+}
+
+.text-img-section{
+    display: flex;   
+}
+
+.contect-section{
+    margin-left: 30px;
+    margin-bottom: 150px;
+}
+
+.contect-section h1{
+  background: linear-gradient(to left,
+  rgb(150, 33, 150),
+  indigo,
+  rgb(159, 225, 104),
+  rgb(178, 75, 192),
+  rgb(128, 140, 195),
+  orange,
+  rgb(209, 112, 112));
+-webkit-background-clip: text;
+color: transparent;
+    margin-bottom: 50px;
+}
+
+.logo-content{
+    display: flex;
+    padding: 4px;
+}
+.logo-content p{
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.logo-content {
+    width: 50%;
+    padding-left: 35px;
+  }
+
+  .logo-content i {
+    font-size: 4em;
+    padding: 8px;
+  }
+
+  .logo-content i:hover {
+    font-size: 3rem;
+    color: rgb(15, 108, 179);
+  }
+
+  .logo-content button {
+    margin-left: 45px;
+  }
